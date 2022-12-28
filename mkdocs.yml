@@ -1,4 +1,5 @@
 site_name: OtterDocs
+site_url: docs.otterhosting.net
 
 theme:
   name: material
