@@ -1,98 +1,19 @@
 # Pterodactyl
 
-Pterodactyl is a Linux software to run, manage and configure docker containers specifically for game servers.
+## Pterodactyl: A Linux Software for Managing Game Servers
 
-## Updating the panel (should probably link the documentation instead)
+[Pterodactyl](https://pterodactyl.io/) is a powerful Linux software that enables you to run, manage, and configure docker containers specifically for game servers. It provides a user-friendly control panel that allows you to easily deploy and manage your game servers, as well as configure settings and options to optimize their performance.
 
-Log into your server using an ssh program, MobaXterm is my recommendation.
+At OtterHosting, we use Pterodactyl to power our game server hosting services. It has proven to be a reliable and scalable solution for hosting a wide range of games, from popular titles like Minecraft and Ark: Survival Evolved to smaller indie games.
 
-## Enter Maintenance Mode
+If you're interested in using Pterodactyl for your own game server hosting, you can find installation instructions and documentation on the [Pterodactyl website](https://pterodactyl.io/). You can also find a community of users and developers on the [Pterodactyl Discord server](https://discord.gg/pterodactyl).
 
-Whenever you are performing an update, you should be sure to place your Panel into maintenance mode. This will prevent
-users from encountering unexpected errors and ensure everything can be updated before users encounter potentially new
-features.
+!!! note
 
-```
-cd /var/www/pterodactyl
+    At OtterHosting, we have made a few enhancements to Pterodactyl to make it easier to use. These include a plugin installer and a modpack installer. These modifications are not available in the standard version of Pterodactyl.
 
-php artisan down
-```
+## [Updating the panel (click me)](https://pterodactyl.io/panel/1.0/updating.html)
 
-## Download the Update
 
-The first step in the update process is to download the new panel files from GitHub. The command below will download the
-release archive for the most recent version of Pterodactyl, save it in the current directory and will automatically
-unpack the archive into your current folder.
+## [Updating Wings (click me)](https://pterodactyl.io/wings/1.0/upgrading.html)
 
-```
-curl -L https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz | tar -xzv
-```
-
-Once all of the files are downloaded, we need to set the correct permissions on the cache and storage directories to
-avoid any webserver related errors.
-
-```
-chmod -R 755 storage/* bootstrap/cache
-```
-
-## Update Dependencies
-
-After you've downloaded all of the new files you will need to upgrade the core components of the panel. To do this,
-simply run the commands below and follow any prompts.
-
-```
-composer install --no-dev --optimize-autoloader
-```
-
-## Clear Compiled Template Cache
-
-You'll also want to clear the compiled template cache to ensure that new and modified templates show up correctly for
-users.
-
-```
-php artisan view:clear
-php artisan config:clear
-```
-
-## Database Updates
-
-You'll also need to update your database schema for the newest version of Pterodactyl. Running the command below will
-update the schema and ensure the default eggs we ship are up to date (and add any new ones we might have). Just
-remember, *never edit core eggs we ship*! They will be overwritten by this update process.
-
-```
-php artisan migrate --seed --force
-```
-
-## Set Permissions
-
-The last step is to set the proper owner of the files to be the user that runs your webserver. In most cases this
-is `www-data` but can vary from system to system — sometimes being `nginx`, `caddy`, `apache`, or even `nobody`.
-
-```
-# If using NGINX or Apache (not on CentOS):
-chown -R www-data:www-data /var/www/pterodactyl/*
-
-# If using NGINX on CentOS:
-chown -R nginx:nginx /var/www/pterodactyl/*
-
-# If using Apache on CentOS
-chown -R apache:apache /var/www/pterodactyl/*
-```
-
-## Restarting Queue Workers
-
-After *every* update you should restart the queue worker to ensure that the new code is loaded in and used.
-
-```
-php artisan queue:restart
-```
-
-## Exit Maintenance Mode
-
-Now that everything has been updated you need to exit maintenance mode so that the Panel can resume accepting
-connections.
-
-```
-php artisan up
-```
