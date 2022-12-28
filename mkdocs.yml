@@ -1,8 +1,5 @@
 site_name: OtterDocs
-<<<<<<< Updated upstream
-=======
 site_url: https://docs.otterhosting.net
->>>>>>> Stashed changes
 
 theme:
   name: material
