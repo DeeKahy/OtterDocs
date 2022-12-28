@@ -1,4 +1,9 @@
-site_name: My Docs
+site_name: OtterDocs
 
 theme:
   name: material
+  palette:
+    scheme: slate
+
+markdown_extensions:
+  - admonition
