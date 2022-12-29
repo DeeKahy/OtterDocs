@@ -22,27 +22,34 @@ developers on the [Pterodactyl Discord server](https://discord.gg/pterodactyl).
 
 ## Installation
 
-Before you begin the installation process, you should ensure that your server meets the following requirements:
+Before you begin the installation process, you should ensure that you have a server running Ubuntu 18.04 or higher with
+a minimum of 1GB of RAM
 
-- A server running Ubuntu 18.04 or higher with a minimum of 1GB of RAM
+!!! tip
 
-!!! note
+    you can get a good cheap server from [contabo](https://contabo.com/en/) which is our recomended provider when you 
+    are on a budget, but you can use [vpsbenchmarks](https://www.vpsbenchmarks.com/screener) to figure out another provider 
+    based on your needs.
 
-    you can get a server from [contabo](https://contabo.com/en/) which is our recomended budget provider.
+
+*  [Installing the panel and wings with script (click me)](https://github.com/pterodactyl-installer/pterodactyl-installer)
+
+*  [Installing the panel and wings with script Video (click me)](https://www.youtube.com/watch?v=7vp2QZIw5Rw&t)
+
+*  [Installing the panel and wings without script (click me)](https://pterodactyl.io/project/introduction.html)
+
 
 !!! warning
 
-        CentOS is no longer supported by Pterodactyl anymore, but alternatives should work.
+    CentOS is no longer supported by Pterodactyl anymore, but alternatives like Rocky Linux and AlmaLinux should 
+    work.
 
-### [Installing the panel and wings with script (click me)](https://github.com/pterodactyl-installer/pterodactyl-installer)
 
-### [Installing the panel and wings with script Video (click me)](https://www.youtube.com/watch?v=7vp2QZIw5Rw&t)
 
-### [Installing the panel and wings without script (click me)](https://pterodactyl.io/project/introduction.html)
 
 ## Updating
 
-### [Updating the panel (click me)](https://pterodactyl.io/panel/1.0/updating.html)
+* [Updating the panel (click me)](https://pterodactyl.io/panel/1.0/updating.html)
 
-### [Updating Wings (click me)](https://pterodactyl.io/wings/1.0/upgrading.html)
+* [Updating Wings (click me)](https://pterodactyl.io/wings/1.0/upgrading.html)
 
