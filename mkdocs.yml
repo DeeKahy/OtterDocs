@@ -1,5 +1,7 @@
 site_name: OtterDocs
 site_url: "https://docs.otterhosting.net"
+site_description: Welcome to our website! We offer a wide range of resources for gamers, developers, and hosting enthusiasts. Our tutorials cover a variety of games and provide step-by-step instructions for mastering them. We also have extensive information on website and game hosting, including tips and tricks for setting up and maintaining your own hosting services. In addition, we have compiled a list of useful links for anything related to development and hosting. Whether you are a seasoned pro or just getting started, our website has something for everyone.
+
 
 theme:
   name: material
@@ -9,6 +11,3 @@ theme:
 markdown_extensions:
   - admonition
 
-
-extra:
-  meta_description: Welcome to our website! We offer a wide range of resources for gamers, developers, and hosting enthusiasts. Our tutorials cover a variety of games and provide step-by-step instructions for mastering them. We also have extensive information on website and game hosting, including tips and tricks for setting up and maintaining your own hosting services. In addition, we have compiled a list of useful links for anything related to development and hosting. Whether you are a seasoned pro or just getting started, our website has something for everyone.
