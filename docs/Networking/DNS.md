@@ -12,14 +12,14 @@ To figure out if and where your DNS record is and what it's pointing to, you can
 
 # DNS Records Explained
 
-| Records | What they do |
-|---------|--------------|
-| A | An A record (Address Record) points a domain or subdomain to an IP address. |
-| AAAA  | The AAAA record is similar to the A record, allowing you to point the domain to an Ipv6 address. |
-| CNAME | A CNAME (Canonical Name) points one domain or subdomain to another domain name. |
-| MX Entry | An MX Entry (Mail Exchanger) directs email to a particular mail server. Like a CNAME, MX Entries must point to a domain and never point directly to an IP address. |
-| TXT | A TXT (Text) record was originally intended for human-readable text. These records are dynamic and can be used for several purposes |
-| SRV  | An SRV (Service) record points one domain to another domain name using a specific destination port |
+| Records                | What they do |
+|------------------------|--------------|
+| [A](##A Record)        | An A record (Address Record) points a domain or subdomain to an IP address. |
+| [AAAA](##AAAA Record)  | The AAAA record is similar to the A record, allowing you to point the domain to an Ipv6 address. |
+| [CNAME](##CNAME)       | A CNAME (Canonical Name) points one domain or subdomain to another domain name. |
+| [MX Entry](##MX Entry) | An MX Entry (Mail Exchanger) directs email to a particular mail server. Like a CNAME, MX Entries must point to a domain and never point directly to an IP address. |
+| [TXT](##TXT Records)   | A TXT (Text) record was originally intended for human-readable text. These records are dynamic and can be used for several purposes |
+| [SRV](##SRV record)    | An SRV (Service) record points one domain to another domain name using a specific destination port |
 
 ## Overview
 
