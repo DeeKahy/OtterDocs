@@ -10,7 +10,7 @@ If you're interested in using Pterodactyl for your own game server hosting, you 
 
 !!! note
 
-    At OtterHosting, we have made a few enhancements to Pterodactyl to make it easier to use. These include a plugin installer and a modpack installer. These modifications are not available in the standard version of Pterodactyl.
+    At OtterHosting, we have made a few enhancements to Pterodactyl to make it easier to use. These include a plugin installer and a modpack installer. These modifications are not available in the standard version of Pterodactyl, but can be added if you want to do the work.
 
 ## [Updating the panel (click me)](https://pterodactyl.io/panel/1.0/updating.html)
 
