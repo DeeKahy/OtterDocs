@@ -12,8 +12,29 @@ If you're interested in using Pterodactyl for your own game server hosting, you 
 
     At OtterHosting, we have made a few enhancements to Pterodactyl to make it easier to use. These include a plugin installer and a modpack installer. These modifications are not available in the standard version of Pterodactyl, but can be added if you want to do the work.
 
-## [Updating the panel (click me)](https://pterodactyl.io/panel/1.0/updating.html)
 
 
-## [Updating Wings (click me)](https://pterodactyl.io/wings/1.0/upgrading.html)
+## Installation
+
+Before you begin the installation process, you should ensure that your server meets the following requirements:
+
+- A server running Ubuntu 18.04 or higher with a minimum of 1GB of RAM
+
+!!! note
+
+    you can get a server from [contabo](https://contabo.com/en/) which is our recomended budget provider.
+
+!!! warning 
+
+        CentOS is no longer supported by Pterodactyl anymore, but alternatives should work.
+
+### [Installing the panel and wings with script (click me)](https://github.com/pterodactyl-installer/pterodactyl-installer)
+### [Installing the panel and wings with script Video (click me)](https://www.youtube.com/watch?v=7vp2QZIw5Rw&t)
+### [Installing the panel and wings without script (click me)](https://pterodactyl.io/project/introduction.html)
+
+## Updating
+### [Updating the panel (click me)](https://pterodactyl.io/panel/1.0/updating.html)
+
+
+### [Updating Wings (click me)](https://pterodactyl.io/wings/1.0/upgrading.html)
 
