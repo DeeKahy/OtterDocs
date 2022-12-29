@@ -1,5 +1,5 @@
 site_name: OtterDocs
-site_url: docs.otterhosting.net
+site_url: "https://docs.otterhosting.net"
 
 theme:
   name: material
