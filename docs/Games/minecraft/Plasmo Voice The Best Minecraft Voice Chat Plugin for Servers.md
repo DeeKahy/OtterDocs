@@ -10,7 +10,8 @@ Plasmo Voice is a popular Minecraft voice chat plugin that allows players on you
 6. To configure Plasmo Voice, you can edit the plugin's config file. 
 7. Enjoy the convenience and fun of voice chat on your Minecraft server with Plasmo Voice!
 
-> Note!
-> It is recommended that you backup your server before installing any plugins, just in case something goes wrong.
+!!! note 
+
+    It is recommended that you backup your server before installing any plugins, just in case something goes wrong.
 
 That's it! With these simple steps, you'll be able to easily install and set up Plasmo Voice on your Minecraft server. Happy chatting! 
