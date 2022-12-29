@@ -1,6 +1,6 @@
 # OtterDocs
 
-Welcome to the OtterDocs GitHub repository! OtterDocs is a comprehensive resource for tutorials, documentation, and support for game servers and related topics, built with [MkDocs](https://www.mkdocs.org/).
+Welcome to the [OtterDocs](https://docs.otterhosting.net/) GitHub repository! OtterDocs is a comprehensive resource for tutorials, documentation, and support for game servers and related topics, built with [MkDocs](https://www.mkdocs.org/).
 
 This repository is the home for the source code of the OtterDocs website. Anyone is welcome to contribute to the development of the site by submitting pull requests.
 
