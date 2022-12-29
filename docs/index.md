@@ -1,7 +1,5 @@
 # Welcome to OtterDocs!
 
-https://docs.otterhosting.net
-
 We are a comprehensive resource for tutorials, documentation, and support for game servers and related topics. Whether you're a beginner looking to set up your first game server or an experienced administrator seeking advanced tips and tricks, you'll find valuable information here to help you get the most out of your server.
 
 On our site, you'll find a wide range of resources to help you understand and manage your game server. From setup guides to performance optimization tips, we've got you covered. We also offer explanations of technical concepts like DNS records, so you can better understand how your server works and how to troubleshoot any issues that may arise.
