@@ -34,7 +34,7 @@ a minimum of 1GB of RAM
 
 *  [Installing the panel and wings with script (click me)](https://github.com/pterodactyl-installer/pterodactyl-installer)
 
-*  [Installing the panel and wings with script Video (click me)](https://www.youtube.com/watch?v=7vp2QZIw5Rw&t)
+*  [Installing the panel and wings with script + overview, Video (click me)](https://www.youtube.com/watch?v=7vp2QZIw5Rw&list=PLo-Z6rSYg5IX8Z_InN9Mi7iQpD9SbHnev)
 
 *  [Installing the panel and wings without script (click me)](https://pterodactyl.io/project/introduction.html)
 
@@ -44,6 +44,9 @@ a minimum of 1GB of RAM
     CentOS is no longer supported by Pterodactyl anymore, but alternatives like Rocky Linux and AlmaLinux should 
     work.
 
+### post installation
+After the installation you might want to add more game eggs or even discord bots like [red](Red%20Discord%20Bot.md).
+You can get the eggs at [https://github.com/parkervcp/eggs](https://github.com/parkervcp/eggs) where you can download them and add them to your server.
 
 
 
