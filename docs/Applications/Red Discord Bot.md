@@ -1,4 +1,4 @@
-# Overveiw
+## Overveiw
 
 Red is a fully modular bot – meaning all features and commands can be enabled/disabled to your liking, making it
 completely customizable. This is a self-hosted bot – meaning you will need to host and maintain your own instance. You
