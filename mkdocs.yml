@@ -11,8 +11,7 @@ copyright: OtterDocs is released under the MIT License.
 
 theme:
   name: material
-  palette:
-    scheme: slate
+
 
 markdown_extensions:
   - admonition
