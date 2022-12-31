@@ -1,17 +1,17 @@
-# Welcome to OtterDocs!
+# Welcome to [OtterDocs](https://docs.otterhosting.net/)!
 
-We are a comprehensive resource for tutorials, documentation, and support for game servers and related topics. Whether
-you're a beginner looking to set up your first game server or an experienced administrator seeking advanced tips and
-tricks, you'll find valuable information here to help you get the most out of your server.
+Welcome to [OtterDocs](https://docs.otterhosting.net/), a resource for learning about and working with different technologies and tools.
 
-On our site, you'll find a wide range of resources to help you understand and manage your game server. From setup guides
-to performance optimization tips, we've got you covered. We also offer explanations of technical concepts like DNS
-records, so you can better understand how your server works and how to troubleshoot any issues that may arise.
+[OtterDocs](https://docs.otterhosting.net/) is brought to you by [OtterHosting](https://otterhosting.net/), a provider of hosting and cloud services. Our goal is to provide users with
+a comprehensive resource for learning about and working with different technologies and tools, as well as to promote our
+hosting services.
 
-In addition to our tutorials and documentation, we also offer user forums and live support options to help you get the
-help you need. So if you have any questions or need assistance, don't hesitate to reach out.
+On [OtterDocs](https://docs.otterhosting.net/), you will find a collection of useful links, short tutorials, and explanations of technologies and tools.
+We have organized the content into categories to make it easy to find what you are looking for, and we have included a
+search feature to help you find specific information or resources.
 
-Thank you for visiting OtterDocs. We hope you find our resources helpful, and we look forward to helping you get the
-most out of your game server.
+We hope that you find [OtterDocs](https://docs.otterhosting.net/) to be a valuable resource, and we welcome your feedback and suggestions. If you have any
+questions or need help with your hosting needs, please don't hesitate to contact us.
 
-I hope this helps! If you have any questions or need further assistance, just let me know.
+Thank you for visiting [OtterDocs](https://docs.otterhosting.net/). We look forward to helping you learn and work with the technologies and tools that you
+need.
