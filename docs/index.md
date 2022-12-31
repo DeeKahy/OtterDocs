@@ -1,4 +1,4 @@
-# Welcome to [OtterDocs](https://docs.otterhosting.net/)!
+# Welcome to OtterDocs!
 
 Welcome to [OtterDocs](https://docs.otterhosting.net/), a resource for learning about and working with different technologies and tools.
 
