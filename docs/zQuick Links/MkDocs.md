@@ -1,7 +1,21 @@
-[MkDocs](https://www.mkdocs.org/) is a fast, simple and downright gorgeous static site generator that's geared towards building project 
-documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
-Start by reading the introductory tutorial, then check the User Guide for more information.
+[MkDocs](https://www.mkdocs.org/) is a static site generator that is designed to create documentation websites. It is
+written in Python and uses
+Markdown files to generate HTML pages. MkDocs is easy to use and is well-suited for creating simple and lightweight
+documentation websites.
 
+To use MkDocs, you will need to install Python and MkDocs on your computer. You can then create a new MkDocs project by
+running the following command:
+
+```bash
+mkdocs new my-project
+```
+
+This will create a new directory called `my-project` with the necessary files and directories for a MkDocs project. You
+can then add your documentation content to the Markdown files in the `docs` directory, and use the `mkdocs serve`
+command to preview your documentation website locally.
+
+Once you are satisfied with your documentation website, you can use the `mkdocs build` command to build the HTML files
+for your website, which you can then deploy to a web host or server.
 
 
 
