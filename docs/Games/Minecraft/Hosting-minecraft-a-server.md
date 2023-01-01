@@ -29,7 +29,7 @@ isn't java. If you want cross play you can check out [geysermc](https://geysermc
 
 
 ## Related Links
-* [Host your own server](/Hosting/Introduction-to-Server-Hosting.md)
-* [Install Pterodactyl, a server software](/Hosting/Applications/Pterodactyl.md)
+* [Host your own server](/Hosting/Introduction-to-Server-Hosting)
+* [Install a server software](/Hosting/Applications/Pterodactyl)
 * [Player analytics](Player-Analytics.md)
 * [Voice Chat](Plasmo-Voice-Chat-Plugin-for-servers.md)

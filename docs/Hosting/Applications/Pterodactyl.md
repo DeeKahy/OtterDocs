@@ -57,3 +57,7 @@ them and add them to your server.
 
 * [Updating Wings (click me)](https://pterodactyl.io/wings/1.0/upgrading.html)
 
+
+## Related Links
+* [Host your own server](/Hosting/Introduction-to-Server-Hosting.md)
+* [Pterodactyl eggs](https://github.com/parkervcp/eggs)

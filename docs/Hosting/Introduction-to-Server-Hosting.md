@@ -48,6 +48,9 @@ location, price, performance, and features.
 
 
 
+## Related Links
+* [Install a server software](/Hosting/Applications/Pterodactyl)
+* [Hosting a Minecraft Server](/Games/Minecraft/Hosting-minecraft-a-server)
 
 
 

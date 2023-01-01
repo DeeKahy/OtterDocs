@@ -16,9 +16,9 @@ The web panel has many configuration options, and can do mostly everything.
   
 The login is pi@{ip adress}, and you set the password in the WebPanel.  
 The few things you would need Linux for is restarting and debugging, the WebPanel can manage things like LetsEncrypt.  
-  
+
 ## Desktop  
-  
+
 The Nextcloud desktop app seems to be horrible at first sight, and it honestly is.  
   
 ### Virtual files #windows  
@@ -35,3 +35,9 @@ The Nextcloud mobile app can automatically upload images, and sync folders, task
 ### Calendar, Contacts & To-do  
   
 To sync your calendar and so on you will need to use [DavX](https://www.davx5.com/) which integrates with WebDAV to be able to sync these things, after that it should integrate with your Phone calendar to use to-do you will need to install opentasks which then should integrate with either DAVX or WebDAV.
+
+
+## Related Links
+
+* [Finding a server](/Hosting/Introduction-to-Server-Hosting/#finding-the-perfect-server-provider)
+* [Install Pterodactyl, a server software](/Hosting/Applications/Pterodactyl)
