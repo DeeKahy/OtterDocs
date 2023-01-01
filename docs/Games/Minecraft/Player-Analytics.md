@@ -12,14 +12,19 @@ how these change over time.
 To set planA up you will need a separate port added to your server and set the port setting to whatever you have
 available that isn't currently being used.
 
-!!! note 
+!!! note
 
     If you wish to connect through a custom domain you will need to have thiese settings.
 
 
+
+
 | Name                   | Value                     | Description                                                                                                                                                                                                                            |
-|------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Port                   | `8804` (use your port)    | Port of the Webserver                                                                                                                                                                                                                  |
+| ---------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Port                   | Alternative_IP            | Port of the Webserver                                                                                                                                                                                                                  |
 | Alternative_IP         | `false`                   | Should an alternate address be used for the WebServer links                                                                                                                                                                            |
 | Alternative_IP.Address | `your.domain.here:%port%` | Address to use as link in inspect and analyze commands if setting above is enabled. %port% will be replaced with the Port automatically. If you have port-forwarded an alternate address to the webserver port, %port% is not required |
+
+
+
 
