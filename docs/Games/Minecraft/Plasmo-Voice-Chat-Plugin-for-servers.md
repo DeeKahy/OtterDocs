@@ -23,5 +23,9 @@ Voice on your Minecraft server:
 That's it! With these simple steps, you'll be able to easily install and set up Plasmo Voice on your Minecraft server.
 Happy chatting!
 
+
 ## [Read their Wiki](https://github.com/plasmoapp/plasmo-voice/wiki)
+
+
+
 
