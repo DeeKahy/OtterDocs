@@ -20,7 +20,6 @@ To figure out if and where your DNS record is and what it's pointing to, you can
 | TXT         | Stores text-based information about a domain         |
 | SRV         | Specifies the hostname and port number for a service |
 
-
 ## Overview
 
 The Domain Name System (DNS) translates human-readable domain names (e.g. store.example.com) into IP addresses that
@@ -94,24 +93,30 @@ for security purposes, such as storing SPF records, and for storing other types 
 
 ### SRV record
 
-An SRV record, or Service record, is a type of DNS record that specifies the hostname and port number for a service,
-such as a SIP or XMPP server. SRV records are used to locate servers that provide specific services, and they are
-commonly used in conjunction with other types of DNS records, such as A and AAAA records, to route traffic to the
-correct server.
+SRV records (Service records) are DNS records that specify the hostname and port number for a particular service, such
+as SIP or XMPP. They allow clients to locate servers that provide a specific service. SRV records consist of fields that
+specify the service, protocol, name, and other information about the server, and they can also specify the priority and
+weight of the server. They are stored in the DNS zone file and are used in conjunction with other DNS records, like A
+and AAAA records, to route traffic to the correct server. SRV records are important for ensuring that clients can access
+servers that provide specific services.
 
-SRV records are stored in the DNS zone file, and they consist of a series of fields that specify the service, protocol,
-name, and other information about the server. When a client wants to connect to a server that provides a specific
-service, it can look up the SRV record for that service and use it to locate the correct server.
+```
+_minecraft._tcp.example.otterhosting.net 86400 SRV 10 20 5060 node1.otterhosting.net.
+```
+#### In short
+this example allows anybody to add `example.otterhosting.net` to their minecraft server list, and it will join the 
+server that is at `node1.otterhosting.net:5060`
 
-For example, if you have a SIP server that is used for VoIP communication, you can create an SRV record for the
-_sip._udp service that specifies the hostname and port number for your SIP server. This will allow clients to locate
-your SIP server and connect to it to make VoIP calls.
+#### Explanation
+This SRV record specifies the hostname `node1.otterhosting.net` and port number `5060` for the `_minecraft._tcp` service. 
+The fields `10` and `20` represent the priority and weight of the server, respectively.
 
-In addition to specifying the hostname and port number for a service, SRV records can also specify the priority and
-weight of the server. The priority field specifies the priority of the server, with lower numbers indicating higher
-priority. The weight field specifies the relative weight of the server, with higher numbers indicating a higher weight.
-These fields are used to balance the load across multiple servers that provide the same service.
+The `_minecraft._tcp` service is a custom service that is used to locate servers for the game Minecraft. This SRV record
+allows clients to connect to a Minecraft server hosted at `node1.otterhosting.net` using the specified port number.
 
-SRV records are an important part of the DNS system, and they play a vital role in ensuring that clients can locate
-servers that provide specific services. By understanding how SRV records work, you can better manage your domain and
-ensure that your servers are easily accessible to your users.
+The `86400` value at the beginning of the record specifies the time-to-live (TTL) for the record, which is the length of
+time that the record will be cached by DNS resolvers. This value is given in seconds.
+
+
+
+
