@@ -100,7 +100,7 @@ weight of the server. They are stored in the DNS zone file and are used in conju
 and AAAA records, to route traffic to the correct server. SRV records are important for ensuring that clients can access
 servers that provide specific services.
 
-```
+```r
 _minecraft._tcp.example.otterhosting.net 86400 SRV 10 20 5060 node1.otterhosting.net.
 ```
 #### In short

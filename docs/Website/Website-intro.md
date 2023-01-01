@@ -65,3 +65,7 @@ promoting a website, including search engine optimization (SEO) tools, social me
 integration.
 
 
+## Related Links
+* [DNS](../Hosting/Introduction-to-Server-Hosting.md)
+
+

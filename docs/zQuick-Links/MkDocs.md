@@ -22,6 +22,8 @@ for your website, which you can then deploy to a web host or server.
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) looks very nice and has some built-in features.
 
 
+## Related Links
+* [Website hosting using github pages](../Website/Website-intro.md#github-pages-free)
 
 
 
