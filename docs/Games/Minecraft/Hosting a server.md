@@ -6,13 +6,13 @@ Linux if you know your way around the linux file system and can use the commandl
 
 ### [Purpur](https://purpurmc.org/)
 
-Purpur is a server software for Minecraft that is based on the Spigot server software. It adds a range of additional
+[Purpur](https://purpurmc.org/) is a server software for Minecraft that is based on the Spigot server software. It adds a range of additional
 features and tools to Spigot, including support for custom plugins and modpacks, as well as server management tools and
 performance enhancements.
 
 ### Paper
 
-Paper is another server software for Minecraft that is based on the Spigot server software. It is known for its focus on
+[Purpur](https://papermc.io/) is another server software for Minecraft that is based on the Spigot server software. It is known for its focus on
 performance and optimization, and it includes various enhancements and improvements that can help improve the
 performance of a Minecraft server.
 
