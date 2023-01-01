@@ -27,3 +27,9 @@ plugin/addon/modded support and is therefor rarely used. Bedrock integrates with
 isn't java. If you want cross play you can check out [geysermc](https://geysermc.org/) with
 [floodgate](https://github.com/GeyserMC/Floodgate/).
 
+
+## Related Links
+* [Host your own server](/Hosting/Introduction-to-Server-Hosting.md)
+* [Install Pterodactyl, a server software](/Hosting/Applications/Pterodactyl.md)
+* [Player analytics](Player-Analytics.md)
+* [Voice Chat](Plasmo-Voice-Chat-Plugin-for-servers.md)

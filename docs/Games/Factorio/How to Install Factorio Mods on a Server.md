@@ -32,3 +32,8 @@ mods in Factorio.
 
 
 7. Then restart the Factorio server. The mod(s) should now be active and available for use.
+
+
+## Related Links
+* [Host your own server](/Hosting/Introduction-to-Server-Hosting.md)
+* [Install Pterodactyl, a server software](/Hosting/Applications/Pterodactyl.md)
