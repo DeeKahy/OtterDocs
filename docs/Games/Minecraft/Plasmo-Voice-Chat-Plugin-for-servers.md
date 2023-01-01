@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=dcPyJpd5-W4
 on your server to communicate with each other using voice chat. Here's a tutorial on how to install and set up Plasmo
 Voice on your Minecraft server:
 
-1. First, download the [Plasmo](https://github.com/plasmoapp/plasmo-voice) Voice plugin from the official Plasmo website
+1. First, [download the Plasmo](https://www.spigotmc.org/resources/plasmo-voice-server.91064/) Voice plugin from the official Plasmo website
    or from a reliable source such as Spigot or Bukkit.
 2. Next, open your Minecraft server control panel and navigate to the "Plugins" tab.
 3. Click the "Upload" button and select the [Plasmo](https://github.com/plasmoapp/plasmo-voice) Voice plugin file that
