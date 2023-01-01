@@ -45,8 +45,9 @@ a minimum of 1GB of RAM
     work.
 
 ### post installation
-After the installation you might want to add more game eggs or even discord bots like [red](Red%20Discord%20Bot.md).
-You can get the eggs at [https://github.com/parkervcp/eggs](https://github.com/parkervcp/eggs) where you can download them and add them to your server.
+After the installation you might want to add more game eggs or even discord bots like [red](/zQuick-Links/Red-Discord-Bot.md).
+You can get the eggs at [https://github.com/parkervcp/eggs](https://github.com/parkervcp/eggs) where you can download 
+them and add them to your server.
 
 
 
