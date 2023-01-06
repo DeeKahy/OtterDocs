@@ -66,6 +66,6 @@ integration.
 
 
 ## Related Links
-* [DNS](../Hosting/Introduction-to-Server-Hosting.md)
+* [DNS](../Networking/DNS-Records.md)
 
 
