@@ -10,8 +10,8 @@ To get ATM7 to work on your server, you will need to add the following line to y
 level-type=skyblockbuilder:skyblock
 ```
 
-This will ensure that the correct level type is set for the ATM7 plugin to function properly.
+This will ensure that the correct level type is set for the ATM7 modpack to generate the correct world.
 
-Please note that the server.properties file is usually located in the root directory of your server files. Make sure to save the file after adding the line and then restart the server for the changes to take effect.
+Please note that the server.properties file is usually located in the root directory of your server files. Make sure to save the file after adding the line and then start the server.
 
 If you have any trouble with this process, don't hesitate to reach out for further assistance. We are here to help!
