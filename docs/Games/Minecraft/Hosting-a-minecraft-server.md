@@ -8,7 +8,7 @@ It is important to have a regular schedule for restarting your Minecraft server.
 
 To make this process easier, consider using the scheduling tab in your server control panel. This will allow you to set up automatic restarts at a specific time each day, so you don't have to manually restart the server every day.
 
-Additionally to that, keeping the server software up-to-date and making sure to have enough resources (RAM, CPU, and storage) for the amount of players and plugins you have installed on the server, will also help you to avoid potential crashes and lags. Also make sure to backup your server regularly in case of any emergency.
+Additionally, to that, keeping the server software up-to-date and making sure to have enough resources (RAM, CPU, and storage) for the amount of players and plugins you have installed on the server, will also help you to avoid potential crashes and lags. Also make sure to backup your server regularly in case of any emergency.
 
 ## Server software
 
