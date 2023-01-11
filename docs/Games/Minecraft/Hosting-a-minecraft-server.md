@@ -12,7 +12,7 @@ performance enhancements.
 
 ### Paper
 
-[Purpur](https://papermc.io/) is another server software for Minecraft that is based on the Spigot server software. It is known for its focus on
+[Paper](https://papermc.io/) is another server software for Minecraft that is based on the Spigot server software. It is known for its focus on
 performance and optimization, and it includes various enhancements and improvements that can help improve the
 performance of a Minecraft server.
 
