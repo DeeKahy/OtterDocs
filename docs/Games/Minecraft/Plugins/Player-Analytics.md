@@ -1,5 +1,3 @@
-## Plan | Player Analytics
-
 [Video overview](https://www.youtube.com/watch?v=DvYh0MiZRks&t)
 
 [Player Analytics](https://github.com/plan-player-analytics/Plan) is the ultimate server staff tool to monitor how
