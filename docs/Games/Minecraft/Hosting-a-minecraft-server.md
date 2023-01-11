@@ -2,6 +2,14 @@
 easy to setup and provides a lot of functionality. That being said there is nothing wrong with just hosting it on raw
 Linux if you know your way around the linux file system and can use the commandline without much issue.
 
+## Best practices
+
+It is important to have a regular schedule for restarting your Minecraft server. This helps to keep the server running smoothly and prevents issues such as memory leaks from occurring. Daily restarts are generally recommended, as this gives the server a chance to clear out any resources that may have been accumulated during the day. **This is especially true for modpacks**
+
+To make this process easier, consider using the scheduling tab in your server control panel. This will allow you to set up automatic restarts at a specific time each day, so you don't have to manually restart the server every day.
+
+Additionally to that, keeping the server software up-to-date and making sure to have enough resources (RAM, CPU, and storage) for the amount of players and plugins you have installed on the server, will also help you to avoid potential crashes and lags. Also make sure to backup your server regularly in case of any emergency.
+
 ## Server software
 
 ### [Purpur](https://purpurmc.org/)
