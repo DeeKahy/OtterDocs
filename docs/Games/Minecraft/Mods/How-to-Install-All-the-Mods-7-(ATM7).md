@@ -14,3 +14,4 @@ This will ensure that the correct level type is set for the ATM7 modpack to gene
 Please note that the server.properties file is usually located in the root directory of your server files. Make sure to save the file after adding the line and then start the server.
 
 If you have any trouble with this process, don't hesitate to reach out for further assistance. We are here to help!
+

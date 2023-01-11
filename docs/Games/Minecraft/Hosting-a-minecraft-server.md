@@ -10,7 +10,7 @@ To make this process easier, consider using the scheduling tab in your server co
 
 Additionally, to that, keeping the server software up-to-date and making sure to have enough resources (RAM, CPU, and storage) for the amount of players and plugins you have installed on the server, will also help you to avoid potential crashes and lags. Also make sure to backup your server regularly in case of any emergency.
 
-## Server software
+## Server software (not modded, for that search on the internet for "forge" or "fabric")
 
 ### [Purpur](https://purpurmc.org/)
 
@@ -39,5 +39,5 @@ isn't java. If you want cross play you can check out [geysermc](https://geysermc
 ## Related Links
 * [Host your own server](/Hosting/Introduction-to-Server-Hosting)
 * [Install a server software](/Hosting/Applications/Pterodactyl)
-* [Player analytics](Player-Analytics.md)
-* [Voice Chat](Plasmo-Voice-Chat-Plugin-for-servers.md)
+* [Player analytics](Plugins/Player-Analytics.md)
+* [Voice Chat](Plugins/Plasmo-Voice-Chat-Plugin-for-servers.md)
