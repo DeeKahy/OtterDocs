@@ -24,5 +24,6 @@ available that isn't currently being used.
 | Alternative_IP.Address | `your.domain.here:%port%` | Address to use as link in inspect and analyze commands if setting above is enabled. %port% will be replaced with the Port automatically. If you have port-forwarded an alternate address to the webserver port, %port% is not required |
 
 
-
-
+## Related Links
+* [Hosting one or more minecraft servers](../../../Hosting/Applications/Pterodactyl.md)
+* [Hosting a minecraft server](./../Hosting-a-minecraft-server.md)

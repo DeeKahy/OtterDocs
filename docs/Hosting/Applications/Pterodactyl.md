@@ -59,5 +59,5 @@ them and add them to your server.
 
 
 ## Related Links
-* [Host your own server](/Hosting/Introduction-to-Server-Hosting.md)
+* [Host your own server](./../Introduction-to-Server-Hosting.md)
 * [Pterodactyl eggs](https://github.com/parkervcp/eggs)

@@ -50,7 +50,7 @@ The p element is a paragraph element, and it is used to create a paragraph of te
 For more information go to [mozilla html beginner tutorial](https://developer.mozilla.org/en-US/docs/Web/HTML#beginners_tutorials)
 
 ## Related Links
-* [Website introduction](Website-intro.md)
+* [Website introduction](./Website-intro.md)
 
 
 

@@ -23,7 +23,7 @@ for your website, which you can then deploy to a web host or server.
 
 
 ## Related Links
-* [Website hosting using github pages](../Website/Website-intro.md#github-pages-free)
+* [Website hosting using github pages](./../Website/Website-intro.md#github-pages-free)
 
 
 

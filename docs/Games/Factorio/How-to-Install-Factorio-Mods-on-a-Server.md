@@ -35,5 +35,5 @@ mods in Factorio.
 
 
 ## Related Links
-* [Host your own server](/Hosting/Introduction-to-Server-Hosting)
-* [Install Pterodactyl, a server software](/Hosting/Applications/Pterodactyl)
+* [Host your own server](../../Hosting/Introduction-to-Server-Hosting.md)
+* [Install Pterodactyl, a server software](../../Hosting/Applications/Pterodactyl.md)

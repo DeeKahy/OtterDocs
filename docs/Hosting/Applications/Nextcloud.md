@@ -39,5 +39,5 @@ To sync your calendar and so on you will need to use [DavX](https://www.davx5.co
 
 ## Related Links
 
-* [Finding a server](/Hosting/Introduction-to-Server-Hosting/#finding-the-perfect-server-provider)
-* [Install Pterodactyl, a server software](/Hosting/Applications/Pterodactyl)
+* [Finding a server](./../Introduction-to-Server-Hosting.md#finding-the-perfect-server-provider)
+* [Install Pterodactyl, a server software](./Pterodactyl.md)

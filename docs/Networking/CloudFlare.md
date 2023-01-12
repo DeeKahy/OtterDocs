@@ -3,4 +3,4 @@ you free security by allowing you to route the network through a proxy therefore
 (d)dos attacks, and other things.
 
 ## Related Links
-* [DNS](DNS-Records.md)
+* [DNS](./DNS-Records.md)

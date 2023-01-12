@@ -15,3 +15,7 @@ Please note that the server.properties file is usually located in the root direc
 
 If you have any trouble with this process, don't hesitate to reach out for further assistance. We are here to help!
 
+## Related Links
+* [Install any modpack on your computer](./How-to-install-mods-and-modpacks.md)
+* [Minecraft server manager software](../../../Hosting/Applications/Pterodactyl.md)
+

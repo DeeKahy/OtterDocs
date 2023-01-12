@@ -11,5 +11,5 @@ The Java version website [adoptium.net](https://adoptium.net/)
 
 
 ## Related Links
-* [Install All the mods 7 on a server](/Games/Minecraft/Mods/How-to-Install-All-the-Mods-7-(ATM7))
-* [Install Pterodactyl, a server software](/Hosting/Applications/Pterodactyl)
+* [Install All the mods 7 and other modpacks on your server](./How-to-Install-All-the-Mods-7-(ATM7).md)
+* [How to make a modpack](./How-to-make-a-modpack.md)
