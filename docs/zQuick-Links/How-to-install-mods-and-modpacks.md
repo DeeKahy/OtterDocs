@@ -8,3 +8,8 @@ There are many ways to manage minecraft mods, the best ways are by using either 
 ## [Install Prism Launcher Video (Click me)](https://www.youtube.com/watch?v=jMi3UA62KPw)
 
 The Java version website [adoptium.net](https://adoptium.net/)
+
+
+## Related Links
+* [Install All the mods 7 on a server](/Games/Minecraft/Mods/How-to-Install-All-the-Mods-7-(ATM7))
+* [Install Pterodactyl, a server software](/Hosting/Applications/Pterodactyl)
