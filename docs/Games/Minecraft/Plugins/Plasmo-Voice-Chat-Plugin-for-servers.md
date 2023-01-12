@@ -28,4 +28,8 @@ Happy chatting!
 
 
 
+## Related Links
+* [Hosting one or more minecraft servers](../../../Hosting/Applications/Pterodactyl.md)
+
+
 
