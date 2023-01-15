@@ -5,3 +5,9 @@
 !!! warning
 
     Lodestone is still in beta and may contain bugs or unfinished features.
+
+
+
+## Related Links
+* [Finding a server](./../Introduction-to-Server-Hosting.md#finding-the-perfect-server-provider)
+* [Install Pterodactyl, a server software](./Pterodactyl.md)
