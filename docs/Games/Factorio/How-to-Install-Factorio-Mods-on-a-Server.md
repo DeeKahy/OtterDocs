@@ -10,7 +10,7 @@ mods in Factorio.
    secure shell (SSH) client or using a control panel provided by your hosting provider.
 
 
-2. Once you have access to the server, navigate to the directory where Factorio is installed. This is usually located in
+2. Once you have access to the swerver, navigate to the directory where Factorio is installed. This is usually located in
    the "games" or "server" directory.
 
 
