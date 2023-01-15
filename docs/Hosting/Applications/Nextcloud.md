@@ -1,5 +1,5 @@
 
-  
+
 **[Nextcloud](https://nextcloud.com/)** is a suite of [client-server software](https://en.wikipedia.org/wiki/Client%E2%80%93server_model "Client?server model") for creating and using [file hosting services](https://en.wikipedia.org/wiki/File_hosting_service "File hosting service"). It is enterprise-ready with comprehensive support options. Being [free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source) software, anyone is allowed to install and operate it on their own [private server](https://en.wikipedia.org/wiki/Private_server "Private server") devices.  
 Nextcloud is functionally similar to [Dropbox](https://en.wikipedia.org/wiki/Dropbox_\(service\) "Dropbox (service)"), [Office 365](https://en.wikipedia.org/wiki/Office_365 "Office 365") or [Google Drive](https://en.wikipedia.org/wiki/Google_Drive) when used with its integrated office suite solutions [Collabora Online](https://en.wikipedia.org/wiki/Collabora_Online "Collabora Online") or [OnlyOffice](https://en.wikipedia.org/wiki/OnlyOffice "OnlyOffice").  
   
