@@ -346,24 +346,27 @@ Put this code.
 
 **Under** this line
 ```php
-<li class="header">SERVICE MANAGEMENT</li>:
+<li class="header">SERVICE MANAGEMENT</li>
 ```
 
 ## Step 6
 After all previous steps are completed, please run these commands with sudo permissions or as root (node is required, min version: v14.x [node -v]):
-
-- `npm i -g yarn`
-- `cd /var/www/pterodactyl`
-- `yarn install --ignore-engines`
-- `yarn add react-select`
-- `yarn add react-switch-selector`
-- `yarn add react-collapse`
-- `composer require nesbot/carbon`
-- `yarn run build:production`
-- `php artisan route:clear && php artisan cache:clear && php artisan view:clear`
-- `php artisan migrate`
-- `chmod -R 755 storage/* bootstrap/cache`
-- `chown -R www-data:www-data /var/www/pterodactyl/*`
+```
+npm i -g yarn
+cd /var/www/pterodactyl
+yarn install --ignore-engines
+yarn add react-select
+yarn add react-switch-selector
+yarn add react-collapse
+```
+composer require nesbot/carbon
+```
+yarn run build:production
+php artisan route:clear && php artisan cache:clear && php artisan view:clear
+php artisan migrate
+chmod -R 755 storage/* bootstrap/cache
+chown -R www-data:www-data /var/www/pterodactyl/*
+```
 
 ### Make sure the Pterodactyl queue worker service is running
 - service pteroq status
