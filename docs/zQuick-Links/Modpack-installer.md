@@ -37,7 +37,7 @@ Put this code.
 
 **under** this line.
 ```php
-'egg_features' => $server->egg->inherit_features, 
+'egg_features' => $server->egg->inherit_features,
 ```
 
 
@@ -56,7 +56,7 @@ Put this code.
 
 **Above** this line
 ```php
-'websocket' => [ 
+'websocket' => [
 ```
 
 ### /app/Services/Servers/ServerDeletionService.php
@@ -70,7 +70,7 @@ DB::table('modpacks')->where('server_id', '=', $server->id)->delete();
 
 **Above** this line
 ```php
-$server->delete(); line
+$server->delete();
 ```
 
 
@@ -157,7 +157,9 @@ eggId: data.egg_id,
 
 **Under** this line (just at the bottom of the entire use segment)
 ```ts
-allocations: ((data.relationships?.allocations as FractalResponseList | undefined)?.data || []).map(rawDataToServerAllocation),
+    allocations: ((data.relationships?.allocations as FractalResponseList | undefined)?.data || []).map(
+        rawDataToServerAllocation
+    ),
 ```
 
 ### /resources/scripts/api/http.ts
@@ -212,12 +214,12 @@ Put this code
 
 **Under** this code.
 ```ts
-{
-    path: '/startup',
-    permission: 'startup.*',
-    name: 'Startup',
-    component: StartupContainer,
-},
+        {
+            path: '/startup',
+            permission: 'startup.*',
+            name: 'Startup',
+            component: StartupContainer,
+        },
 
 ```
 
@@ -233,8 +235,9 @@ eggIds?: number[];
 
 **Under** this code.
 ```ts
-interface ServerRouteDefinition extends RouteDefinition { permission: string | string[] | null;
-```
+interface ServerRouteDefinition extends RouteDefinition {
+    permission: string | string[] | null;
+}```
 
 ### /resources/scripts/routers/ServerRouter.tsx
 #### 1.
@@ -253,21 +256,27 @@ import routes from '@/routers/routes';
 #### 2.
 Replace the lines:
 ```tsx
-{routes.server
-    .filter((route) => !!route.name)
-    .map((route) =>
-        route.permission ? (
-            <Can key={route.path} action={route.permission} matchAny>
-                <NavLink to={to(route.path, true)} exact={route.exact}>
-                    {route.name}
-                </NavLink>
-            </Can>
-        ) : (
-            <NavLink key={route.path} to={to(route.path, true)} exact={route.exact}>
-                {route.name}
-            </NavLink>
-        )
-    )}
+                                {routes.server
+                                    .filter((route) => !!route.name)
+                                    .map((route) =>
+                                        route.permission ? (
+                                            <Can key={route.path} action={route.permission} matchAny>
+                                                <NavLink to={to(route.path, true)} exact={route.exact}>
+                                                    {route.name}
+                                                </NavLink>
+                                            </Can>
+                                        ) : (
+                                            <NavLink key={route.path} to={to(route.path, true)} exact={route.exact}>
+                                                {route.name}
+                                            </NavLink>
+                                        )
+                                    )}
+                                {rootAdmin && (
+                                    // eslint-disable-next-line react/jsx-no-target-blank
+                                    <a href={`/admin/servers/view/${serverId}`} target={'_blank'}>
+                                        <FontAwesomeIcon icon={faExternalLinkAlt} />
+                                    </a>
+                                )}
 ```
 
 with the line.
@@ -279,18 +288,18 @@ with the line.
 #### 3.
 Replace the lines:
 ```tsx
-<TransitionRouter>
-    <Switch location={location}>
-        {routes.server.map(({ path, permission, component: Component }) => (
-            <PermissionRoute key={path} permission={permission} path={to(path)} exact>
-                <Spinner.Suspense>
-                    <Component />
-                </Spinner.Suspense>
-            </PermissionRoute>
-        ))}
-        <Route path={'*'} component={NotFound} />
-    </Switch>
-</TransitionRouter>
+                            <TransitionRouter>
+                                <Switch location={location}>
+                                    {routes.server.map(({ path, permission, component: Component }) => (
+                                        <PermissionRoute key={path} permission={permission} path={to(path)} exact>
+                                            <Spinner.Suspense>
+                                                <Component />
+                                            </Spinner.Suspense>
+                                        </PermissionRoute>
+                                    ))}
+                                    <Route path={'*'} component={NotFound} />
+                                </Switch>
+                            </TransitionRouter>
 ```
 
 with the line.
