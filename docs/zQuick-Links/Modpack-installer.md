@@ -21,9 +21,11 @@ Put this code.
 
 **Under** thiese lines.
 ```php
-<li class="{{ ! starts_with(Route::currentRouteName(), 'admin.users') ?: 'active' }}">
-	<a href="{{ route('admin.users') }}"> <i class="fa fa-users"></i> <span>Users</span> </a>
-</li>
+                        <li class="{{ ! starts_with(Route::currentRouteName(), 'admin.users') ?: 'active' }}">
+                            <a href="{{ route('admin.users') }}">
+                                <i class="fa fa-users"></i> <span>Users</span>
+                            </a>
+                        </li>
 ```
 
 ### /app/Transformers/Api/Client/ServerTransformer.php
