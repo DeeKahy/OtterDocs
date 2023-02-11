@@ -18,7 +18,7 @@ Get through winget or this [link](https://www.autohotkey.com/).
 
 Get through winget or this [link](https://www.videolan.org/vlc/).
 
-### nextcloud:
+### Nextcloud:
 - Cloud storage platform
 - File hosting service
 
@@ -47,3 +47,9 @@ Get through winget or this [link](https://www.mozilla.org/en-US/firefox/new/).
 - P2P file sharing software
 
 Get through winget.
+
+### Mobaxterm:
+- SSH/SFTP client
+- Remote computing tool
+
+Get through this [link](https://mobaxterm.mobatek.net/).
