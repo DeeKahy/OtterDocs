@@ -237,7 +237,8 @@ eggIds?: number[];
 ```ts
 interface ServerRouteDefinition extends RouteDefinition {
     permission: string | string[] | null;
-}```
+}
+```
 
 ### /resources/scripts/routers/ServerRouter.tsx
 #### 1.
