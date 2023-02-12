@@ -8,7 +8,7 @@ For Pterodactyl Panel
 ## Step 2
 Modify all the files listed exactly how the guide describes.
 
-### /resources/views/layouts/admin.blade.php
+### admin.blade.php
 
 Put this code.
 ```php
@@ -28,7 +28,7 @@ Put this code.
                         </li>
 ```
 
-### /app/Transformers/Api/Client/ServerTransformer.php
+### ServerTransformer.php
 Put this code.
 ```php
 'nest_id' => $server->nest_id,
@@ -42,7 +42,7 @@ Put this code.
 
 
 
-### /app/Models/Permission.php
+### Permission.php
 
 Put this code.
 ```php
@@ -59,7 +59,7 @@ Put this code.
 'websocket' => [
 ```
 
-### /app/Services/Servers/ServerDeletionService.php
+### ServerDeletionService.php
 #### 1.
 
 Put this code.
@@ -87,7 +87,7 @@ use Illuminate\Support\Facades\DB;
 use Pterodactyl\Exceptions\Http\Connection\DaemonConnectionException;
 ```
 
-### /app/Services/Servers/ReinstallServerService.php
+### ReinstallServerService.php
 #### 1.
 
 Put this code.
@@ -115,7 +115,7 @@ use Illuminate\Support\Facades\DB;
 use Pterodactyl\Exceptions\Http\Connection\DaemonConnectionException;
 ```
 
-### /app/Console/Kernel.php
+### Kernel.php
 
 Put this code.
 ```php
@@ -129,7 +129,7 @@ $schedule->command(CleanServiceBackupFilesCommand::class)->daily();
 ```
 
 
-### /resources/scripts/api/server/getServer.ts
+### getServer.ts
 
 #### 1.
 
@@ -162,7 +162,7 @@ eggId: data.egg_id,
     ),
 ```
 
-### /resources/scripts/api/http.ts
+### http.ts
 Change this `timeout: 20000,` to `timeout: 40000` 
 
 The line is **Under** 
@@ -173,7 +173,7 @@ const http: AxiosInstance = axios.create({:
 ## Step 3 Panel 
 Version 1.9.0 and UP
 
-### /app/Transformers/Api/Client/ServerTransformer.php 
+### ServerTransformer.php 
 Put this code.
 ```php
 'nest_id' => $server->nest_id,
@@ -186,7 +186,7 @@ Put this code.
 ```
 
 
-### /resources/scripts/routers/routes.ts
+### routes.ts
 #### 1.
 Put this code
 ```ts
@@ -314,7 +314,7 @@ with the line.
     The licensing controller only has to be installed once for all of my addons. If you have installed any of my addons previously there is a high chance that it is already installed.
     Check that the "Astrooms License" tab exists in the admin interface. If it does not, you must do the following: Modify the file under this step exactly how the guide describes.
 
-### /routes/admin.php
+### admin.php
 Please insert this code at bottom of the file.
 
 ```php
@@ -333,7 +333,7 @@ Route::group(['prefix' => 'astroomlicense'], function () {
 });
 ```
 
-### resources/views/layouts/admin.blade.php
+### admin.blade.php
 
 Put this code.
 ```php
@@ -358,9 +358,7 @@ yarn install --ignore-engines
 yarn add react-select
 yarn add react-switch-selector
 yarn add react-collapse
-```
 composer require nesbot/carbon
-```
 yarn run build:production
 php artisan route:clear && php artisan cache:clear && php artisan view:clear
 php artisan migrate
@@ -374,6 +372,9 @@ chown -R www-data:www-data /var/www/pterodactyl/*
 
 The addon works without pteroq as well, but temporary modpack eggs will not be reverted and deleted and has to be done so manually. Please follow: https://pterodactyl.io/panel/1.0/getting_started.html#create-queue-worker if you do not already have it installed.
 
+
+
+# not yet tested
 
 ## step 7
 **Activate the addon**
