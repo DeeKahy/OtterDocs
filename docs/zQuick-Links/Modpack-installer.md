@@ -84,7 +84,7 @@ use Illuminate\Support\Facades\DB;
 
 **Under** this line (just at the bottom of the entire use segment)
 ```php
-use Pterodactyl\Exceptions\Http\Connection\DaemonConnectionException;
+use Pterodactyl\Repositories\Wings\DaemonServerRepository;
 ```
 
 ### ReinstallServerService.php
@@ -110,9 +110,9 @@ use Illuminate\Support\Facades\DB;
 ```
 
 
-**Above** this line (just at the bottom of the entire use segment)
+**Under** this line (just at the bottom of the entire use segment)
 ```php
-use Pterodactyl\Exceptions\Http\Connection\DaemonConnectionException;
+use Pterodactyl\Repositories\Wings\DaemonServerRepository;
 ```
 
 ### Kernel.php
