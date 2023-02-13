@@ -240,7 +240,7 @@ interface ServerRouteDefinition extends RouteDefinition {
 }
 ```
 
-### /resources/scripts/routers/ServerRouter.tsx
+### ServerRouter.tsx
 #### 1.
 
 Put this line.
