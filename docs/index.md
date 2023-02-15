@@ -3,6 +3,7 @@
 Welcome to [OtterDocs](https://github.com/DeeKahy/OtterDocs/), a resource for learning about and working with different
 technologies and tools.
 
+## What is it?
 [OtterDocs](https://github.com/DeeKahy/OtterDocs/) is brought to you by [OtterHosting](https://otterhosting.net/), a provider
 of hosting and cloud services. Our goal is to provide users with
 a comprehensive resource for learning about and working with different technologies and tools, as well as to promote our
